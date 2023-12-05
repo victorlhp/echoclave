@@ -1,32 +1,16 @@
-.titulo {
-  color: white;
-  left: 713px;
-  top: 24px;
-  font-family: Marcellus;
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 3px;
-  position: absolute;
+.img{
+    width: 892px;
+    height: 582px;
+    flex-shrink: 0;
+    position: absolute;
 }
 
-.backTitulo {
-  display: inline-flex;
-  padding: 23px 107px 24px 713px;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 566px;
-  background-color: #333;
-  width: 1728px;
-  height: 122px;
-}
-
-.lupa{
-  width: 40px;
-  height: 40px;
-  color: white;
-  position: absolute;
-  left: 1581px;
-  top: 85px;
+.seta{
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 58px;
+    background: #FFF;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.12);
+    position: absolute;
 }

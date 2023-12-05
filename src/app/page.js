@@ -1,23 +1,25 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import img1 from '../../public/img1.png'
+import seta1 from '../../public/seta1.png'
 
-// function Titulo({x, y}) {
-//   return (
-//     <h1 style={{left: x , top : y}} className={styles.titulo}>EchoClave</h1>
-//   );
-// }
+function Img({x, y}) {
+  return (
+    <Image src={img1} style={{left: x, top: y}} className={styles.img} alt='img'/>
+  );
+}
 
-// function BackTitulo({x, y}) {
-//   return (
-//     <h1 style={{width: x , height : y}} className={styles.backTitulo}></h1>
-//   );
-// }
+function Seta({x, y, z}) {
+  return (
+    <Image src={seta1} style={{left: x, top: y, radius: z}} className={styles.seta} alt='seta'/>
+  );
+}
 
 export default function Home(){
   return (
     <>
-    {/* <Titulo>x={713} y={24}</Titulo>
-    <BackTitulo>x={1728} y={122}</BackTitulo> */}
+    <Img x={67} y={295}/>
+    <Seta x={909} y={317} z={58}/>
     
     </>
   )
