@@ -2,6 +2,7 @@ import Image from 'next/image'
 import styles from './page.module.css'
 import img1 from '../../public/img1.png'
 import seta1 from '../../public/seta1.png'
+import ellipse from '../../public/ellipse.svg'
 
 function Img({x, y}) {
   return (
@@ -17,7 +18,13 @@ function Seta({x, y, z}) {
 
 function Trending({x, y}) {
   return (
-    <h1 style={{left: x , top : y}} className={styles.trending}>TRENDING ON BOARD <span style={{left: x, top: y}} className={styles.comp}>#1</span></h1>
+    <h1 style={{left: x , top : y}} className={styles.trending}>TRENDING ON BOARD </h1>
+  );
+}
+
+function Comp({x, y}) {
+  return (
+    <h4 style={{left: x, top: y}} className={styles.comp}>#1</h4>
   );
 }
 
@@ -33,13 +40,21 @@ function Embark({x, y}) {
   );
 }
 
+function Ellipse({x, y}) {
+  return (
+    <Image src={ellipse} style={{left: x, top: y}} className={styles.ellipse} alt='ellipse'/>
+  );
+}
+
 
 export default function Home(){
   return (
     <>
     <Img x={67} y={295}/>
     <Seta x={909} y={317} z={58}/>
+    <Ellipse>x={1080} y={731}</Ellipse>
     <Trending></Trending>
+    <Comp></Comp>
     <Off></Off>
     <Embark></Embark>
     
