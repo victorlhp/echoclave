@@ -1,0 +1,65 @@
+.titulo{
+    color: white;
+    left: 713px;
+    top: 24px;
+    font-family: Marcellus;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3px;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+.backTitulo{
+    display: inline-flex;
+    padding: 23px 107px 24px 713px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 566px;
+    background-color: #333;
+    width: 1728px;
+    height: 122px;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+.lupa{
+    width: 33.35px;
+    height: 33.33px;
+    color: white;
+    flex-shrink: 0;
+    position: absolute;
+    left: 3.3px;
+    top: 3.3px;
+  }
+  
+  
+
+.menu{
+    display: inline-flex;
+    height: 100px;
+    padding: 0px 84px 0px 86px;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 67px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 10px 60px 0px rgba(217, 217, 217, 0.25);
+    list-style-type: none;
+    font-family: Raleway;
+    margin: 0;
+}
+  
+.itemMenu{
+    color: #333;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    margin: 0;
+}
