@@ -46,6 +46,19 @@ function Ellipse({x, y}) {
   );
 }
 
+function Rob({x, y}) {
+  return (
+    <h2 style={{left: x , top : y}} className={styles.rob}>Robert Evans</h2>
+  );
+}
+
+function Botao({x, y}) {
+  return (
+    <button style={{left: x, top: y}} className={styles.botao}>Read It</button>
+  )
+}
+
+
 
 export default function Home(){
   return (
@@ -57,6 +70,8 @@ export default function Home(){
     <Comp></Comp>
     <Off></Off>
     <Embark></Embark>
+    <Rob></Rob>
+    <Botao>x={1080} y={807}</Botao>
     
     
     </>

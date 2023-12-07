@@ -28,6 +28,7 @@
   text-align: left;
   position: absolute;
   margin: 0;
+  color: #717171;
 
 }
 
@@ -43,6 +44,7 @@
   letter-spacing: 0em;
   position: absolute;
   margin: 0;
+  color: #717171;
   
 }
 
@@ -86,4 +88,36 @@
   flex-shrink: 0;
   border-radius: 44px;
   position: absolute;
+}
+
+.rob{
+  color: #000;
+  font-family: Raleway;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25.83px;
+  width: 138px;
+  height: 26px;
+  top: 740px;
+  left: 1140px;
+  position: absolute;
+  margin: 0;
+}
+
+.botao{
+  color: #FFF;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  width: 186px;
+  height: 54px;
+  flex-shrink: 0; 
+  border-radius: 32px;
+  background: #000;
+  
 }
