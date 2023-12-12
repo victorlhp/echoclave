@@ -48,7 +48,7 @@
   
 }
 
-.off{
+.titulos{
   width: 564px;
   height: 176px;
   color: #000;
@@ -58,49 +58,33 @@
   font-weight: 400;
   line-height: normal;
   position: absolute;
-  top: 429px;
-  left: 1006px;
   margin: 0px;
 }
 
-.embark{
-  width: 533px;
+.noticias{
   color: #6C6C6C;
   font-family: Raleway;
-  font-size: 26px;
   font-style: normal;
   font-weight: 500;
   line-height: 30.52px;
-  letter-spacing: 1.3px;
   position: absolute;
-  top: 615px;
-  left: 1020px;
-  height: 93px;
   font-weight: 500;
   margin: 0px;
 }
 
 .ellipse{
-  width: 44px;
-  height: 44px;
-  left: 1080px;
-  top: 731px;
+  
   flex-shrink: 0;
   border-radius: 44px;
   position: absolute;
 }
 
-.rob{
+.autores{
   color: #000;
   font-family: Raleway;
-  font-size: 22px;
   font-style: normal;
   font-weight: 600;
   line-height: 25.83px;
-  width: 138px;
-  height: 26px;
-  top: 740px;
-  left: 1140px;
   position: absolute;
   margin: 0;
 }
@@ -119,7 +103,7 @@
   flex-shrink: 0; 
   border-radius: 32px;
   background: #000;
-  left: 1080px;
+  left: 1010px;
   top: 807px;
   
 }
@@ -131,7 +115,7 @@
   border-radius: 32px;
   border: 2px solid #000;
   top: 807px;
-  left: 1292px;
+  left: 1222px;
   color: #000;
   font-family: Raleway;
   font-size: 24px;
@@ -154,4 +138,88 @@
   position: absolute;
   left: 66px;
   top: 13px;
+}
+
+.datas{
+  color: #6C6C6C;
+  text-align: right;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  margin: 0px;
+}
+
+.img2{
+  width: 747px;
+  height: 364px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 1398px;
+  left: 87px;
+}
+
+.img3{
+  width: 747px;
+  height: 364px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 1398px;
+  left: 898px;
+}
+
+.blog{
+  color: #000;
+  font-family: Radio Canada;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  width: 81px;
+  height: 36px;
+  top: 1790px;
+  left: 87px;
+  position: absolute;
+}
+
+.blog2{
+  color: #A6A6A6;
+  font-family: Radio Canada;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  position: absolute;
+  top: 1790px;
+  left: 217px;
+}
+
+.img4{
+  width: 475.23px;
+  height: 285.672px;
+  flex-shrink: 0;
+  top: 2396px;
+  left: 85px;
+  position: absolute;
+}
+
+.img5{
+  width: 475.23px;
+  height: 285.672px;
+  flex-shrink: 0;
+  top: 2396px;
+  left: 626px;
+  position: absolute;
+}
+
+.img6{
+  width: 475.23px;
+  height: 285.672px;
+  flex-shrink: 0;
+  top: 2396px;
+  left: 1167px;
+  position: absolute;
 }
