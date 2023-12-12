@@ -3,6 +3,7 @@ import styles from './page.module.css'
 import img1 from '../../public/img1.png'
 import seta1 from '../../public/seta1.png'
 import ellipse from '../../public/ellipse.svg'
+import icn from '../../public/icn.svg'
 
 function Img({x, y}) {
   return (
@@ -58,6 +59,16 @@ function Botao({x, y}) {
   )
 }
 
+function Button({x, y}) {
+  return (
+    <button style={{left: x, top: y}} className={styles.button}>
+      <Image src={icn} className={styles.icn} alt='icn'/>
+      <span className={styles.aaa}> Listen It </span>
+    </button>
+  
+  )
+}
+
 
 
 export default function Home(){
@@ -72,6 +83,8 @@ export default function Home(){
     <Embark></Embark>
     <Rob></Rob>
     <Botao>x={1080} y={807}</Botao>
+    <Button></Button>
+    
     
     
     </>

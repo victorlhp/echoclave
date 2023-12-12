@@ -119,5 +119,39 @@
   flex-shrink: 0; 
   border-radius: 32px;
   background: #000;
+  left: 1080px;
+  top: 807px;
   
+}
+
+.button{
+  width: 186px;
+  height: 54px;
+  flex-shrink: 0;
+  border-radius: 32px;
+  border: 2px solid #000;
+  top: 807px;
+  left: 1292px;
+  color: #000;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+}
+
+.icn{
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  top: 13px;
+  left: 30px;
+  position: absolute;
+}
+
+.aaa{
+  position: absolute;
+  left: 66px;
+  top: 13px;
 }
