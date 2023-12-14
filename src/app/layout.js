@@ -38,6 +38,8 @@ function ItemMenu({nome}){
   );
 }
 
+
+
 export default function RootLayout({ children }){
   return(
   <>
@@ -56,6 +58,7 @@ export default function RootLayout({ children }){
               <ItemMenu nome="Climate"/>
             </Menu>
     <Lupa x={1581} y={85}/>
+    
     {children}
   </>
   )

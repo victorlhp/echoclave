@@ -51,7 +51,6 @@
 .titulos{
   width: 564px;
   height: 176px;
-  color: #000;
   font-family: Marcellus;
   font-size: 70px;
   font-style: normal;
@@ -59,6 +58,7 @@
   line-height: normal;
   position: absolute;
   margin: 0px;
+
 }
 
 .noticias{
@@ -221,5 +221,105 @@
   flex-shrink: 0;
   top: 2396px;
   left: 1167px;
+  position: absolute;
+}
+
+.card{
+  
+  width: 782px;
+  height: 876px;
+  flex-shrink: 0;
+  background: transparent;
+  box-shadow: 6px 7px 35px 0px rgba(0, 0, 0, 0.12);
+  top: 979px;
+  left: 87px;
+  position: absolute;
+  
+}
+
+.card2{
+  width: 782px;
+  height: 876px;
+  flex-shrink: 0;
+  background: transparent;
+  box-shadow: 6px 7px 35px 0px rgba(0, 0, 0, 0.12);
+  top: 979px;
+  left: 878px;
+  position: absolute;
+}
+
+.card3{
+  width: 510.828px;
+  height: 705.726px;
+  flex-shrink: 0;
+  background: transparent;
+  box-shadow: 5.34px 7.12px 35.598px 0px rgba(0, 0, 0, 0.12);
+  position: absolute;
+  top: 2054px;
+  left: 67px;
+}
+
+.card4{
+  width: 510.828px;
+  height: 705.726px;
+  flex-shrink: 0;
+  background: transparent;
+  box-shadow: 5.34px 7.12px 35.598px 0px rgba(0, 0, 0, 0.12);
+  position: absolute;
+  top: 2054px;
+  left: 608.09px;
+}
+
+.card5{
+  width: 510.828px;
+  height: 705.726px;
+  flex-shrink: 0;
+  background: transparent;
+  box-shadow: 5.34px 7.12px 35.598px 0px rgba(0, 0, 0, 0.12);
+  position: absolute;
+  top: 2054px;
+  left: 1149.17px;
+}
+
+.faixa{
+  width: 1728px;
+  height: 1295px;
+  flex-shrink: 0;
+  top: 2871px;
+  background: #000;
+  position: absolute;
+  margin: 0px;
+}
+
+.featured{
+  width: 1347px;
+  height: 769px;
+  flex-shrink: 0;
+  left: 190px;
+  top: 341px;
+  position: absolute;
+
+}
+
+.pontos{
+  width: 144px;
+  height: 24px;
+  flex-shrink: 0;
+  position: absolute;
+}
+
+.esquerda{
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  position: absolute;
+  
+
+}
+
+.direita{
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
   position: absolute;
 }
