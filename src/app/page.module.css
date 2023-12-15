@@ -347,3 +347,12 @@
   position: absolute;
   top: 5021px;
 }
+
+.direita2{
+  width: 74.167px;
+  height: 74.167px;
+  flex-shrink: 0;
+  position: absolute;
+  border-radius: 42px;
+  border: 2px solid #000;
+}

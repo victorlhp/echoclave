@@ -17,6 +17,7 @@ import pontos from '../../public/pontos.svg'
 import esquerda from '../../public/esquerda.svg'
 import direita from '../../public/direita.svg'
 import caixapesquisa from '../../public/caixapesquisa.png'
+import direita2 from '../../public/direita2.svg'
 
 
 function Img({x, y}) {
@@ -162,6 +163,12 @@ function Caixa({x, y}) {
   );
 }
 
+function Direita2({x, y, color='black'}) {
+  return (
+    <Image src={direita2} style={{left: x, top: y, color: color}} className={styles.direita2} alt='img'/>
+  );
+}
+
 
 
 export default function Home(){
@@ -257,7 +264,7 @@ export default function Home(){
     <Caixa x={486} y={4626}></Caixa>
     <div>
     <Noticias x={61} y={40} width={279} height={40} fontSize={34} size={26} letterSpacing={1.7} color='#9D9D9D'>Type your email</Noticias>
-    <Direita x={657.93} y={22.42} color='#000'></Direita>
+    <Direita2 x={657.93} y={22.42} color='black'></Direita2>
     </div>
     </div>
     
