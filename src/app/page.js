@@ -6,6 +6,7 @@ import img3 from '../../public/img3.png'
 import img4 from '../../public/img4.png'
 import img5 from '../../public/img5.png'
 import img6 from '../../public/img6.png'
+import divider from '../../public/divider.png'
 import seta1 from '../../public/seta1.png'
 import ellipse from '../../public/ellipse.svg'
 import ellipse2 from '../../public/ellipse2.svg'
@@ -169,6 +170,12 @@ function Direita2({x, y, color='black'}) {
   );
 }
 
+function Divider({x, y, width, height}) {
+  return (
+    <Image src={divider} style={{left: x, top: y, width: width, height: height}} className={styles.divider} alt='img'/>
+  );
+}
+
 
 
 export default function Home(){
@@ -209,6 +216,8 @@ export default function Home(){
       <Blog2 x={150} y={811}>AUDIO BLOG</Blog2>
       <Img3 x={20} y={419}></Img3>
     </div>
+
+    <Divider x={67} y={1955} width={1593} height={1}></Divider>
 
     <div className={styles.card3}>
       <Titulos x={17.8} y={18.69} width={475} fontSize={62}>Mastering The Art Of Culinary</Titulos> 
@@ -257,8 +266,8 @@ export default function Home(){
       </div>
     </div>
 
-    <Titulos x={486} y={4441} width={477} fontSize={110}>Subscribe</Titulos>
-    <Noticias x={1015} y={4442} width={153} height={118} fontSize={50} size={26} letterSpacing={2.5} >For More Updates</Noticias>
+    <Titulos x={486} y={4441} width={509} height={138} fontSize={110}>Subscribe</Titulos>
+    <Noticias x={975} y={4480} width={226} height={118} fontSize={50} size={26} letterSpacing={2.5} color='#000'>For More Updates</Noticias>
     
     <div className={styles.caixa}>
     <Caixa x={486} y={4626}></Caixa>

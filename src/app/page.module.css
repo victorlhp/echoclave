@@ -281,6 +281,13 @@
   left: 1149.17px;
 }
 
+.divider{
+  width: 1593px;
+  height: 1px;
+  background: #B6B6B6;
+  position: absolute;
+}
+
 .faixa{
   width: 1728px;
   height: 1295px;
