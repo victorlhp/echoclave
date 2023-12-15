@@ -57,7 +57,7 @@ export default function RootLayout({ children }){
               <ItemMenu nome="Health"/>
               <ItemMenu nome="Climate"/>
             </Menu>
-    <Lupa x={1581} y={85}/>
+    <Lupa x={1581} y={41}/>
     
     {children}
   </>
