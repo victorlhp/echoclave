@@ -313,6 +313,8 @@
   height: 50px;
   flex-shrink: 0;
   position: absolute;
+  border-radius: 32px;
+  border: 2px solid #FFF;
   
 
 }
@@ -322,4 +324,26 @@
   height: 50px;
   flex-shrink: 0;
   position: absolute;
+  border-radius: 32px;
+  border: 2px solid #FFF;
+}
+
+.caixa{
+  width: 755px;
+  height: 120px;
+  flex-shrink: 0;
+  border-radius: 60px;
+  background: #E3E3E3;
+  position: absolute;
+  left: 486px;
+  top: 4626px;
+}
+
+.rodape{
+  width: 1728px;
+  height: 863px;
+  flex-shrink: 0;
+  background: #F5F5F7;
+  position: absolute;
+  top: 5021px;
 }

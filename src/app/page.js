@@ -16,6 +16,7 @@ import featured from '../../public/featured.png'
 import pontos from '../../public/pontos.svg'
 import esquerda from '../../public/esquerda.svg'
 import direita from '../../public/direita.svg'
+import caixapesquisa from '../../public/caixapesquisa.png'
 
 
 function Img({x, y}) {
@@ -149,9 +150,15 @@ function Esquerda({x, y}) {
   );
 }
 
-function Direita({x, y}) {
+function Direita({x, y, color='white'}) {
   return (
-    <Image src={direita} style={{left: x, top: y}} className={styles.direita} alt='img'/>
+    <Image src={direita} style={{left: x, top: y, color: color}} className={styles.direita} alt='img'/>
+  );
+}
+
+function Caixa({x, y}) {
+  return (
+    <Image src={caixapesquisa} style={{left: x, top: y}} className={styles.caixa} alt='img'/>
   );
 }
 
@@ -243,8 +250,58 @@ export default function Home(){
       </div>
     </div>
 
-    <Titulos x={486} y={4441} width={477} fontSize={110} >Subscribe</Titulos>
+    <Titulos x={486} y={4441} width={477} fontSize={110}>Subscribe</Titulos>
     <Noticias x={1015} y={4442} width={153} height={118} fontSize={50} size={26} letterSpacing={2.5} >For More Updates</Noticias>
+    
+    <div className={styles.caixa}>
+    <Caixa x={486} y={4626}></Caixa>
+    <div>
+    <Noticias x={61} y={40} width={279} height={40} fontSize={34} size={26} letterSpacing={1.7} color='#9D9D9D'>Type your email</Noticias>
+    <Direita x={657.93} y={22.42} color='#000'></Direita>
+    </div>
+    </div>
+    
+
+    <div className={styles.rodape}>
+      <Titulos x={66} y={55} width={251} fontSize={50} color='#6C6C6C'>EchoClave</Titulos>
+      <Noticias x={66} y={207} width={137} height={40} fontSize={30} size={26} letterSpacing={1.5} color='#545454'>Features</Noticias>
+      <Noticias x={431} y={207} width={170} height={40} fontSize={30} size={26} letterSpacing={1.5} color='#545454'>Categories</Noticias>
+      <Noticias x={789} y={207} width={160} height={40} fontSize={30} size={26} letterSpacing={1.5} color='#545454'>Site Cards</Noticias>
+        <Noticias x={66} y={263} width={229} height={160} fontSize={30} size={26} letterSpacing={1.5} color='#545454'>
+        Audio Blogs
+        Blogs
+        Video Updates
+        Site Cards
+        </Noticias>
+        <Noticias x={431} y={263} width={222} height={360} fontSize={30} size={26} letterSpacing={1.5} color='#545454'>
+        Travel
+        Technology
+        Sports
+        Literature
+        Entertainment
+        Business
+        Art
+        Health
+        Climate
+        </Noticias>
+        <Noticias x={789} y={263} width={239} height={200} fontSize={30} size={26} letterSpacing={1.5} color='#545454'>
+        1 min Reads
+        Quick Note
+        Trending Note
+        Roll On’s Note
+        Enclaved Blogs
+        </Noticias>
+
+      <Noticias x={66} y={757} width={648} height={28} fontSize={24} size={26} letterSpacing={1.2} color='#545454'>Copyright © 2023 EchoClave Inc. All rights reserved.
+      </Noticias>
+      <Noticias x={819} y={757} width={172} height={28} fontSize={24} size={26} letterSpacing={1.2} color='#545454'>Privacy Policy</Noticias>
+      <Noticias x={1031} y={757} width={161} height={40} fontSize={24} size={26} letterSpacing={1.2} color='#545454'>Terms of Use</Noticias>   
+      <Noticias x={1232} y={757} width={108} height={40} fontSize={24} size={26} letterSpacing={1.2} color='#545454'>Site Map</Noticias> 
+
+
+
+
+    </div>
    
     </>
   )
